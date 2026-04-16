@@ -1,0 +1,16 @@
+Act as a Staff Engineer.
+
+Task:
+Review the project architecture and improve it.
+
+Focus on:
+- Separation of concerns
+- Scalability
+- Maintainability
+- Dependency injection
+- Removing bad practices
+
+Rules:
+- Do not rewrite everything
+- Improve what exists
+- Explain key improvements briefly

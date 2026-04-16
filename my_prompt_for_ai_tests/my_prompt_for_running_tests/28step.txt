@@ -1,0 +1,12 @@
+Act as a startup strategist.
+
+Task:
+Design monetization model.
+
+Include:
+- Pricing tiers
+- Free vs paid features
+- Upgrade triggers
+
+Goal:
+System should be ready to make money

@@ -1,0 +1,17 @@
+Act as a QA engineer for AI systems.
+
+Task:
+Test AI functionality.
+
+Requirements:
+- Validate outputs (not just existence)
+- Test edge prompts
+- Test hallucination cases
+- Compare expected vs actual responses
+
+Add:
+- Deterministic test cases where possible
+- Prompt regression testing
+
+Goal:
+AI should be reliable, not random.

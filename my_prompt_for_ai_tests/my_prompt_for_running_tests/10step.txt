@@ -1,0 +1,20 @@
+Act as a high-load systems engineer.
+
+Task:
+Analyze and improve system for scalability and performance.
+
+Focus on:
+- Database query optimization
+- Indexing strategy
+- Avoiding N+1 queries
+- Efficient pagination
+- API response time
+
+Add:
+- Caching strategy
+- Rate limiting
+- Connection pooling
+
+Explain:
+- What bottlenecks were found
+- How they were fixed

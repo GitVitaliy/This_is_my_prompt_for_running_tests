@@ -1,0 +1,12 @@
+Act as a startup founder.
+
+Task:
+Add feedback collection system.
+
+Include:
+- Simple feedback form
+- Bug report option
+- Optional: rating system
+
+Goal:
+Users tell us what is wrong

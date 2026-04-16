@@ -1,0 +1,13 @@
+Act as a product manager.
+
+Task:
+Reduce the system to a sharp MVP.
+
+You must:
+- Identify the core value (what problem it solves)
+- Remove unnecessary features
+- Keep only what delivers value fast
+
+Output:
+- Clear product scope
+- What is NOT included

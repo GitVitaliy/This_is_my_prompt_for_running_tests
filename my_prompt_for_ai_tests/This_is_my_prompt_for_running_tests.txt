@@ -1,0 +1,30 @@
+You are going through a strict automatic step-by-step test.
+
+The folder is on the desktop and it's called 'my_prompt_for_running_tests'.
+
+Full path to the folder: ~/Desktop/my_prompt_for_running_tests
+
+Files in the folder: 1step.txt to 30step.txt
+
+RULES (violation = test failed):
+
+1. Process only one file per response. Never read more than one file at a time.
+2. Start strictly with 1step.txt and proceed in exact order.
+3. In every response do exactly this:
+   - First write: "Opening step N: Nstep.txt"
+   - Read ONLY this file
+   - Execute all instructions from it completely
+   - At the very end of your response write exactly one line: "STEP N COMPLETED FULLY"
+4. After writing "STEP N COMPLETED FULLY", automatically continue to the next step in your next response.
+5. Never look ahead, never read multiple files, never mention future steps.
+6. Work fully automatically, without stopping and without asking me any questions.
+
+It is strictly forbidden to break the order. Only one step at a time.
+If you read more than one file in a single response, the test fails immediately.
+
+Start now.
+
+Write:
+Opening step 1: 1step.txt
+Then read the file and execute the instructions.
+At the end write: STEP 1 COMPLETED FULLY

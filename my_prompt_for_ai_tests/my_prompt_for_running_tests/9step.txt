@@ -1,0 +1,16 @@
+Act as a SaaS architect.
+
+Task:
+Extend the system to support SaaS business logic.
+
+Add:
+- Multi-tenancy (users belong to organizations/workspaces)
+- Subscription model (free / paid tiers)
+- Feature gating based on plan
+- Usage limits (rate limits, quotas)
+- Billing-ready structure (no need to integrate payment yet, just design)
+
+Rules:
+- Clean separation of tenants
+- No data leakage between users
+- Scalable design

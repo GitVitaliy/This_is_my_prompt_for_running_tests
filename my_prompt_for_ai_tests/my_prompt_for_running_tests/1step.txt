@@ -1,0 +1,20 @@
+You are a senior full-stack architect.
+
+Task:
+Generate a minimal but clean production-ready full-stack project.
+
+Requirements:
+- Clean layered architecture (API, service, repository, domain)
+- FastAPI + PostgreSQL + SQLAlchemy + Alembic
+- React + TypeScript + Vite
+- Proper project structure
+- One example feature (end-to-end: backend + frontend)
+
+Rules:
+- Keep it simple, no overengineering
+- Focus on correctness of architecture
+- No unnecessary features
+
+Output:
+- Full project structure
+- Working code

@@ -1,0 +1,17 @@
+Act as a senior production engineer.
+
+Task:
+Add production-grade requirements.
+
+Include:
+- Docker + docker-compose
+- Environment variables (.env)
+- Logging
+- Error handling
+- API versioning
+- CORS
+- Security basics
+
+Rules:
+- Integrate cleanly into existing code
+- Do not break architecture

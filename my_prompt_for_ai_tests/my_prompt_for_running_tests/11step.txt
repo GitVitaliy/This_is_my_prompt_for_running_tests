@@ -1,0 +1,13 @@
+Act as a reliability engineer.
+
+Task:
+Make the system resilient.
+
+Add:
+- Timeouts for external services
+- Retry strategies
+- Circuit breaker pattern (if applicable)
+- Graceful degradation
+
+Goal:
+System should continue working even if parts fail.

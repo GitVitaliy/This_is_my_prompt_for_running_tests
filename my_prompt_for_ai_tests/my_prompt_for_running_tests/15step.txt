@@ -1,0 +1,18 @@
+Act as an AI architect.
+
+Task:
+Design AI workflows (agent-like behavior).
+
+Add:
+- Multi-step pipelines
+- Decision-based flows (if/else logic)
+- Task decomposition
+- Memory between steps (if needed)
+
+Examples:
+- Analyze → decide → act
+- Generate → validate → improve
+
+Rules:
+- Avoid overcomplicated agents
+- Keep flows deterministic where possible

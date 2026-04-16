@@ -1,0 +1,17 @@
+Act as a senior backend engineer specializing in scalable systems.
+
+Task:
+Integrate Redis and background processing into the project.
+
+Requirements:
+- Add Redis for caching
+- Cache expensive operations
+- Implement cache invalidation strategy
+- Add background jobs (Celery / RQ / FastAPI BackgroundTasks)
+- Move heavy operations to async jobs
+- Add retry logic for failed jobs
+
+Rules:
+- Do not break existing architecture
+- Keep everything modular
+- Clearly separate sync and async logic

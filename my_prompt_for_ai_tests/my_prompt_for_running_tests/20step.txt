@@ -1,0 +1,19 @@
+Act as a world-class Principal Engineer and AI Architect.
+
+Task:
+Perform the most critical review possible.
+
+You must:
+- Challenge all architectural decisions
+- Find scaling limits
+- Find AI weaknesses
+- Find cost inefficiencies
+- Find security risks
+
+Then:
+- Improve everything
+- Simplify where possible
+- Strengthen weak parts
+
+Rule:
+Assume this system will handle thousands of users.

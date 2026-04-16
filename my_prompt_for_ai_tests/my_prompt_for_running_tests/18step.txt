@@ -1,0 +1,13 @@
+Act as a system optimization engineer.
+
+Task:
+Optimize AI usage.
+
+Add:
+- Token usage tracking
+- Cost monitoring
+- Caching AI responses
+- Smart model selection (cheap vs expensive)
+
+Goal:
+Minimize cost without losing quality.

@@ -1,0 +1,19 @@
+Act as an AI systems engineer.
+
+Task:
+Integrate AI capabilities into the system properly.
+
+Requirements:
+- Abstract AI provider (OpenAI / others)
+- Do not hardcode model usage
+- Create AI service layer
+- Support prompt templates
+- Logging for AI requests/responses
+
+Add:
+- Retry logic for AI calls
+- Cost-aware design (track usage)
+- Timeout handling
+
+Goal:
+AI must be modular and replaceable.

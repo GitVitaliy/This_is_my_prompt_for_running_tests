@@ -1,0 +1,13 @@
+Act as a startup engineer.
+
+Task:
+Adapt system for real users.
+
+Add:
+- Authentication UX (login, signup)
+- Error messages for users (not devs)
+- Empty states
+- Loading states
+
+Goal:
+Make it usable, not just functional

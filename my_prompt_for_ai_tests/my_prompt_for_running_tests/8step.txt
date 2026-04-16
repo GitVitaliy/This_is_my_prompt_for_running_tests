@@ -1,0 +1,21 @@
+Act as a security-focused backend engineer.
+
+Task:
+Implement a production-grade authentication and authorization system.
+
+Requirements:
+- JWT authentication (access + refresh tokens)
+- Password hashing (bcrypt)
+- Role-Based Access Control (RBAC)
+- Permission system (not just roles)
+- Secure endpoints
+- Token expiration & refresh flow
+
+Security:
+- Protect against common attacks
+- Validate all inputs
+- Never expose sensitive data
+
+Rules:
+- Clean integration with existing API
+- No hardcoded roles

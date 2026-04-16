@@ -1,0 +1,17 @@
+Act as a Principal Engineer doing a final review.
+
+Task:
+Critically review the entire project.
+
+Find:
+- Architectural weaknesses
+- Bad practices
+- Missing edge cases
+- Security issues
+- Performance problems
+
+Then:
+- Fix everything
+- Improve code quality
+
+Be extremely critical.

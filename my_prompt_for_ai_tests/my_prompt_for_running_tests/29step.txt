@@ -1,0 +1,12 @@
+Act as a product growth expert.
+
+Task:
+Improve user retention.
+
+Add:
+- Notifications (email or in-app)
+- Re-engagement ideas
+- Habit-forming mechanics
+
+Goal:
+Users come back

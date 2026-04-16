@@ -1,0 +1,16 @@
+Act as a product analyst.
+
+Task:
+Add analytics and tracking.
+
+Track:
+- User signups
+- User actions
+- Drop-off points
+- Feature usage
+
+Tools:
+- PostHog / Google Analytics (or similar)
+
+Goal:
+Understand how users behave

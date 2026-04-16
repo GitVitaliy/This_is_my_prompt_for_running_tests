@@ -1,0 +1,16 @@
+Act as a senior frontend engineer.
+
+Task:
+Improve frontend to production level.
+
+Add:
+- Proper component structure
+- Loading states
+- Error states
+- Form validation
+- API abstraction
+- UX improvements
+
+Optional:
+- Dark mode
+- Responsive design

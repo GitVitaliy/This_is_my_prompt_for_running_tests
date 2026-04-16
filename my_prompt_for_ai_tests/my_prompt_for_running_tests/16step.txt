@@ -1,0 +1,13 @@
+Act as a data/AI engineer.
+
+Task:
+Add vector search and knowledge integration.
+
+Requirements:
+- Store embeddings
+- Use vector database (pgvector or similar)
+- Implement semantic search
+- Connect AI with internal data
+
+Goal:
+AI answers must be grounded in real data.

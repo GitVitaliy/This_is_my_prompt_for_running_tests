@@ -1,0 +1,14 @@
+Act as a DevOps engineer.
+
+Task:
+Deploy the system to production.
+
+Requirements:
+- Choose hosting (VPS / cloud)
+- Setup domain
+- Configure HTTPS
+- Setup CI/CD deployment
+- Environment configs
+
+Goal:
+System must be publicly accessible

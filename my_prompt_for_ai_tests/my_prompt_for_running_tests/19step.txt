@@ -1,0 +1,13 @@
+Act as a system architect.
+
+Task:
+Prepare system for scaling.
+
+Add:
+- Split services logically (modular monolith or microservices-ready)
+- API gateway concept
+- Background workers separation
+- Horizontal scaling readiness
+
+Goal:
+System must scale without full rewrite.

@@ -1,0 +1,21 @@
+Act as a Principal/Staff+ Engineer from a top tech company.
+
+Task:
+Perform a brutal, honest, world-class review.
+
+You must:
+- Find ALL weaknesses
+- Identify overengineering
+- Identify underengineering
+- Detect scalability risks
+- Detect security issues
+- Detect bad abstractions
+
+Then:
+- Fix everything
+- Improve architecture
+- Improve code quality
+
+Rules:
+- Be extremely critical
+- Do not accept mediocre solutions

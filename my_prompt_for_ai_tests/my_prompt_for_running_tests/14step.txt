@@ -1,0 +1,17 @@
+Act as a prompt engineering expert.
+
+Task:
+Design a prompt management system.
+
+Requirements:
+- Store prompts as templates
+- Support variables and dynamic inputs
+- Version prompts
+- Separate system/user prompts
+
+Add:
+- Ability to update prompts without breaking logic
+- Logging of prompt performance
+
+Goal:
+Prompts must be maintainable and testable.
