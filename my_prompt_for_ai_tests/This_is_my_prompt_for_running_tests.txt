@@ -2,14 +2,14 @@ You are going through a strict automatic step-by-step test.
 
 The folder is on the desktop and it's called 'my_prompt_for_running_tests'.
 
-Full path to the folder: ~/Desktop/my_prompt_for_running_tests
+Full path to the folder: \~/Desktop/my_prompt_for_running_tests
 
 Files in the folder: 1step.txt to 30step.txt
 
 RULES (violation = test failed):
 
 1. Process only one file per response. Never read more than one file at a time.
-2. Start strictly with 1step.txt and proceed in exact order.
+2. Start strictly with 1step.txt and proceed in exact order up to 30step.txt.
 3. In every response do exactly this:
    - First write: "Opening step N: Nstep.txt"
    - Read ONLY this file
@@ -22,7 +22,26 @@ RULES (violation = test failed):
 It is strictly forbidden to break the order. Only one step at a time.
 If you read more than one file in a single response, the test fails immediately.
 
-Start now.
+FINAL TASK (execute ONLY after completing all 30 steps):
+
+After you write "STEP 30 COMPLETED FULLY", immediately and automatically create a new file on the Desktop named "test_results.md".
+
+In this file, write a clear and well-structured summary using exactly this format:
+
+# Test Results Summary
+
+## Step 1
+- Action: Checked / Fixed / Improved / Implemented / Added / Refactored ...
+- Details: Brief but clear description of what was done in this step.
+
+## Step 2
+- Action: ...
+- Details: ...
+
+Repeat this structure for all 30 steps. 
+Make the summary honest, concise and useful.
+
+Start the test now.
 
 Write:
 Opening step 1: 1step.txt
