@@ -41,11 +41,42 @@ credentials/
 *.crt
 
 .idea/
+*.iml
+*.iws
+*.ipr
+.fleet/
+
 .vscode/
+.history/
+
 *.swp
 *.swo
+*.un~
+*~
+\#*\#
+
 *.sublime-workspace
 *.sublime-project
+
+.project
+.classpath
+.settings/
+
+nbproject/
+nb-configuration.xml
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.xcuserstate
+xcuserdata/
+
+.zed/
+
+*.code-workspace
 
 .DS_Store
 Thumbs.db
@@ -64,8 +95,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-dist/
-build/
 .next/
 out/
 .vite/
@@ -104,15 +133,22 @@ coverage/
 .cursor/
 .cursor-cache/
 .cursor-tmp/
+.claude/
 
 generated/
 gen/
 ai_output/
 ai_logs/
 
-my_promt_for_running_tests/output/
-my_promt_for_running_tests/results/
-my_promt_for_running_tests/tmp/
+This_is_my_prompt_for_running_tests/output/
+This_is_my_prompt_for_running_tests/results/
+This_is_my_prompt_for_running_tests/tmp/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/output/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/results/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/tmp/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/output/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/results/
+This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/This_is_my_prompt_for_running_tests/tmp/
 
 *.csv
 *.parquet
@@ -126,7 +162,6 @@ my_promt_for_running_tests/tmp/
 *.gz
 *.rar
 
-node_modules/
 frontend/node_modules/
 backend/node_modules/
 
@@ -138,8 +173,6 @@ frontend/.next/
 backend/dist/
 backend/build/
 
-!.env.example
-!.github/workflows/**
 !README.md
 !requirements.txt
 !pyproject.toml
