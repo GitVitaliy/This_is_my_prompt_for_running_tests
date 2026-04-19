@@ -6,6 +6,33 @@ Full path to the folder: \~/Desktop/my_prompt_for_running_tests
 
 Files in the folder: 1step.txt to 30step.txt
 
+IMPORTANT INITIAL ANALYSIS (do this first, before any steps):
+
+Before starting the 30 steps, carefully analyze the entire project:
+
+1. Determine the type of product:
+   - Website / Web application
+   - Telegram bot
+   - Mobile application
+   - Desktop application
+   - SaaS platform
+   - Other (specify)
+
+2. Determine the business model:
+   - B2B
+   - B2C
+   - B2B2C
+   - Internal tool
+   - Other
+
+3. Check if AI integration (AI features, LLM calls, ChatGPT, Grok, Claude, OpenAI API, etc.) was originally planned and implemented in the project.
+   - If AI features were NOT present in the original code, architecture, or requirements — strictly DO NOT add any AI-related functionality.
+   - It is strictly forbidden to add AI integration if it was not part of the original project.
+
+4. Understand the main goals, target audience, and core functionality of the product.
+
+Remember this analysis and strictly follow it during all 30 steps.
+
 RULES (violation = test failed):
 
 1. Process only one file per response. Never read more than one file at a time.
@@ -13,7 +40,9 @@ RULES (violation = test failed):
 3. In every response do exactly this:
    - First write: "Opening step N: Nstep.txt"
    - Read ONLY this file
-   - Execute all instructions from it completely
+   - Execute all instructions from it, strictly respecting the project type, business model, and original AI integration status.
+   - NEVER add any AI features, LLM calls, AI APIs, chatbots, or AI-related code if AI was not originally present in the project.
+   - Make all changes suitable specifically for this product. Do not add any unnecessary or unrelated features from yourself.
    - At the very end of your response write exactly one line: "STEP N COMPLETED FULLY"
 4. After writing "STEP N COMPLETED FULLY", automatically continue to the next step in your next response.
 5. Never look ahead, never read multiple files, never mention future steps.
@@ -21,6 +50,7 @@ RULES (violation = test failed):
 
 It is strictly forbidden to break the order. Only one step at a time.
 If you read more than one file in a single response, the test fails immediately.
+Adding AI integration when it was not originally present is a critical violation.
 
 FINAL TASK (execute ONLY after completing all 30 steps):
 
@@ -32,7 +62,7 @@ In this file, write a clear and well-structured summary using exactly this forma
 
 ## Step 1
 - Action: Checked / Fixed / Improved / Implemented / Added / Refactored ...
-- Details: Brief but clear description of what was done in this step.
+- Details: Brief but clear description of what was done. Mention adaptation to project type, business model, and AI status.
 
 ## Step 2
 - Action: ...
@@ -43,7 +73,8 @@ Make the summary honest, concise and useful.
 
 Start the test now.
 
-Write:
+First, perform the full initial project analysis (product type, business model, and AI integration status).
+Then write:
 Opening step 1: 1step.txt
 Then read the file and execute the instructions.
 At the end write: STEP 1 COMPLETED FULLY
