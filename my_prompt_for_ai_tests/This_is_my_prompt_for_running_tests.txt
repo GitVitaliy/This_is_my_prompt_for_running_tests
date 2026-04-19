@@ -1,50 +1,66 @@
 You are going through a strict automatic step-by-step test.
+
 Project Location:
-Folder: ~/Desktop/my_prompt_for_running_tests
+Folder: ~/Desktop/my_prompt_for_ai_tests/my_prompt_for_running_tests
 Files: 1step.txt to 30step.txt
-I. IMPORTANT INITIAL ANALYSIS (Do this first)
+
+## I. IMPORTANT INITIAL ANALYSIS (Do this first)
+
 Before starting any of the 30 steps, carefully analyze the entire project and explicitly state:
-Product Type: (Website, Telegram bot, Mobile app, Desktop app, SaaS, etc.)
-Business Model: (B2B, B2C, B2B2C, Internal tool, etc.)
-Tech Stack: (Main programming language, frameworks, and key libraries)
-AI Integration Status: Check if AI features (LLM, OpenAI API, Grok, etc.) were originally present in the project.
-CRITICAL: If AI was NOT originally present, it is strictly forbidden to add any AI-related functionality or code in any step.
-Core Goals: Main functionality and target audience.
-II. RULES (Violation = Test Failed)
-Process only ONE file per response. Never read more than one file at a time.
-Start strictly with 1step.txt and proceed in exact numerical order.
-In every response use this exact structure:
-First line: Opening step N: Nstep.txt
-Second line: [Context: {Product Type} | {Business Model} | AI: {Allowed or Forbidden} | Stack: {short tech stack}]
-Then execute the instructions from the current step file only.
-Do exactly what is asked in the step. Do not add extra improvements or refactor unrelated code.
-Never add AI features if they were not in the original project.
-Always wrap code in proper code blocks with the correct language tag (e.g. python, javascript).
-The very last line of your response must be: STEP N COMPLETED FULLY
-After writing "STEP N COMPLETED FULLY", immediately begin the next step in the same response without any pause, separator, or user input. Never stop between steps. Continue until Step 30 is fully completed.
-If the response limit is reached mid-step, end with "PAUSED AT STEP N — CONTINUE" and resume from that step when prompted.
-Work fully automatically. Do not ask questions. Do not add extra comments after the final line.
-Never look ahead or mention future steps.
-If a file is missing or unreadable, write "FILE ERROR: Nstep.txt" and immediately proceed to the next step.
-Re-read the Initial Analysis before each step to ensure consistency.
-If a step contradicts a previously completed step, apply the new instruction and note the conflict in the final report.
-If a step instruction is ambiguous, apply the most minimal interpretation. Never assume or expand scope.
-Always work on the current state of the file, not the original version.
-III. FINAL TASK (Only after Step 30)
+
+- Product Type: (Website, Telegram bot, Mobile app, Desktop app, SaaS, etc.)
+- Business Model: (B2B, B2C, B2B2C, Internal tool, etc.)
+- Tech Stack: (Main programming language, frameworks, and key libraries)
+- AI Integration Status: AI is NOT present in the initial project. However, starting from Step 13, AI integration is explicitly required by the test steps. Follow those instructions fully when reached.
+- Core Goals: Main functionality and target audience.
+
+## II. RULES (Violation = Test Failed)
+
+1. Process only ONE file per response. Never read more than one file at a time.
+2. Start strictly with 1step.txt and proceed in exact numerical order.
+3. In every response use this exact structure:
+   - First line: Opening step N: Nstep.txt
+   - Second line: [Context: {Product Type} | {Business Model} | AI: {Not integrated yet / Integrated from step 13} | Stack: {short tech stack}]
+   - Then execute the instructions from the current step file only.
+   - Do exactly what is asked in the step. Do not add extra improvements or refactor unrelated code.
+   - Always wrap code in proper code blocks with the correct language tag (e.g. ```python, ```javascript).
+   - If a step produces strategy, recommendations, or design instead of code, output it as structured text with clear sections.
+   - The very last line of your response must be: STEP N COMPLETED FULLY
+4. After writing "STEP N COMPLETED FULLY", immediately begin the next step in the same response without any pause, separator, or user input. Never stop between steps. Continue until Step 30 is fully completed.
+   If the response limit is reached mid-step, end with "PAUSED AT STEP N — CONTINUE" and resume from that step when prompted.
+5. Work fully automatically. Do not ask questions. Do not add extra comments after the final line.
+6. Never look ahead or mention future steps.
+7. If a file is missing or unreadable, write "FILE ERROR: Nstep.txt" and immediately proceed to the next step.
+8. Re-read the Initial Analysis before each step to ensure consistency.
+9. If a step contradicts a previously completed step, apply the new instruction and note the conflict in the final report.
+10. If a step instruction is ambiguous, apply the most minimal interpretation. Never assume or expand scope.
+11. Always work on the current state of the file, not the original version.
+
+## III. FINAL TASK (Only after Step 30)
+
 After writing "STEP 30 COMPLETED FULLY", immediately and automatically create a file at:
 ~/Desktop/test_results.md
+
 Use this exact format inside the file:
-Test Results Summary
-Step 1
-Action: Checked / Fixed / Improved / Implemented ...
-Details: Brief description. Mention adaptation to product type, business model and AI status if relevant.
-Status: ✅ COMPLETED / ⚠️ SKIPPED / ⚠️ CONFLICT
-Step 2
-Action: ...
-Details: ...
-Status: ...
+
+# Test Results Summary
+
+## Step 1
+- Action: Checked / Fixed / Improved / Implemented ...
+- Details: Brief description. Mention adaptation to product type, business model and AI status if relevant.
+- Status: ✅ COMPLETED / ⚠️ SKIPPED / ⚠️ CONFLICT
+
+## Step 2
+- Action: ...
+- Details: ...
+- Status: ...
+
 Repeat for all 30 steps. Keep it honest and concise.
+
+---
+
 START THE TEST NOW.
+
 First, perform the full initial project analysis and state it clearly.
 Then begin with:
 Opening step 1: 1step.txt
