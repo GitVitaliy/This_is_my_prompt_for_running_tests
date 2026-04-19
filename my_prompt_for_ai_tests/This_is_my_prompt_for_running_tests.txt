@@ -13,6 +13,7 @@ Before starting any of the 30 steps, carefully analyze the entire project and ex
 - Tech Stack: (Main programming language, frameworks, and key libraries)
 - AI Integration Status: AI is NOT present in the initial project. However, starting from Step 13, AI integration is explicitly required by the test steps. Follow those instructions fully when reached.
 - Core Goals: Main functionality and target audience.
+- Integration relevance: List which integrations or features (AI, payments, third-party APIs, specific platforms, etc.) are actually needed for this project vs. not applicable. Use this to judge each step.
 
 ## II. RULES (Violation = Test Failed)
 
@@ -35,6 +36,7 @@ Before starting any of the 30 steps, carefully analyze the entire project and ex
 9. If a step contradicts a previously completed step, apply the new instruction and note the conflict in the final report.
 10. If a step instruction is ambiguous, apply the most minimal interpretation. Never assume or expand scope.
 11. Always work on the current state of the file, not the original version.
+12. Project fit and irrelevant steps: If the project does not require a given integration or feature (e.g. AI, a specific API, a platform the codebase does not use), do not add that functionality “for the test.” Apply the smallest action that satisfies the step file without forcing unrelated work; if the step cannot apply, document it honestly. In the final audit (`test_results.md`), mark such steps as ⚠️ SKIPPED or N/A with a short reason, and do **not** treat “not applicable to this project” as a failed or incomplete step.
 
 ## III. FINAL TASK (Only after Step 30)
 
@@ -55,7 +57,7 @@ Use this exact format inside the file:
 - Details: ...
 - Status: ...
 
-Repeat for all 30 steps. Keep it honest and concise.
+Repeat for all 30 steps. Keep it honest and concise. For steps that were not applicable to this project (per Rule 12), use Status ⚠️ SKIPPED or N/A and explain why—do not list them as failures.
 
 ---
 
